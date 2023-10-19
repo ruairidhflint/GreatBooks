@@ -1,5 +1,5 @@
 :root {
-  --text-color: rgb(53, 53, 53);
+  --text-color: #404040;
   --max-width: 700px;
   --font-family: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans",
     Segoe UI, Helvetica, Arial, sans-serif;
@@ -23,6 +23,15 @@ h1 {
 p {
   font-size: var(--p-font-size);
   line-height: var(--line-height);
+}
+
+a {
+  color: #0072d6;
+}
+
+a:hover {
+  /* color: red; */
+  opacity: 0.8;
 }
 
 ul {
